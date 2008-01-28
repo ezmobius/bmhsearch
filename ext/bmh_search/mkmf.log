@@ -1,0 +1,12 @@
+have_library: checking for main() in -lc... -------------------- yes
+
+"gcc -o conftest -I. -I/usr//lib/ruby/1.8/i686-darwin8.7.1 -I.  -g -O2 -pipe -fno-common conftest.c  -L"/usr//lib"      -lruby-static -lc  -ldl -lobjc  "
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { main(); return 0; }
+/* end */
+
+--------------------
+
